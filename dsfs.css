@@ -1,0 +1,1028 @@
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px; /* Adjust the gap as needed */
+  background-color: #fff;
+  opacity: 1;
+  align-items: center;
+  font-family: Helvetica;
+  width: 100vw;
+  height: 128px;
+  justify-content: space-evenly;
+}
+
+.left {
+  
+  justify-content: center;
+  display: flex;
+  
+  color: #354463;
+  font: normal bold 22px/28px Helvetica;
+  text-align: left;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.middle {
+  display: flex;
+  font: normal normal 300 16px/24px Helvetica;
+  letter-spacing: -0.16px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.m-card {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  color: #354463;
+  text-align: left;
+  align-items: center;
+}
+
+.right {
+  height: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right > button {
+  position: relative;
+  width: 15vw;
+  height: 48px;
+  font: normal bold 18px/22px Helvetica;
+  border-radius: 34px;
+  border: none;
+  color: #354463;
+  font-size: 16px;
+  padding: 11px 26px;
+  background: #C1F7D5;
+  
+}
+
+.second-page {
+  width: 100%;
+  height: 400px; 
+  display: flex;
+  background-image: url('assets/anniebag.png');
+  background-color: #354463;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8%;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.sec-img {
+  display: flex;
+  position: relative;
+  width: 40%; 
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-rig {
+  width: 60%; 
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: end;
+}
+
+.white-box {
+  position: absolute;
+  width: 60vh;
+  height: 30vh;
+  background-color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font: normal normal bold 2vw Helvetica; /* Adjust font size as needed */
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+  padding: 5%;
+  box-sizing: border-box;
+  z-index: 3;
+  top: 40%; 
+}
+
+.blue-box {
+  top: -10px;
+  display: flex;
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  font: normal normal normal 1.5vh Helvetica; /* Adjust font size as needed */
+  letter-spacing: 0.56px;
+  color: #FFFFFF;
+  opacity: 1;
+  background-color: #354463;
+  justify-content: center;
+  align-items: center;
+}
+
+  
+
+.third-page{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #354463;
+    box-sizing: border-box;
+    padding: 100px;
+    flex-direction: column;
+}
+
+.third-top{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    
+}
+  
+
+.small-box {
+    position: relative;
+    display: flex;
+    width: 160px;
+    height: 52px;
+    text-align: center;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    background-color: #fff;
+    color: #354463; /* Change the text color to white (#ffffff) or any other contrasting color */
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+  }
+
+
+  
+.third-heading{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    position: relative;
+    flex-wrap: wrap;
+    text-align: left;
+    font: normal normal bold 3vw Helvetica;
+  letter-spacing: 0px;
+color: #FFFFFF;
+}  
+
+.third-middle{
+    display: flex;
+    height: 60%;
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.row1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    
+    
+}
+.row2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    
+    
+}
+
+.row-cards{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 2%;
+
+}
+
+.icons{
+    width: auto;
+    height: 30%;
+    
+}
+.mid-bold{
+    width: 100%;
+    height: 20%;
+    text-align: left;
+font: normal normal bold 32px Helvetica;
+letter-spacing: 0px;
+color: rgba(255, 255, 255, 1);
+opacity: 1;
+}
+.mid-sub{
+
+    width: 100%;
+    height: 40%;
+    text-align: left;
+font: normal normal 300 16px Helvetica;
+letter-spacing: -0.16px;
+color: rgba(255, 255, 255, 1);
+opacity: 1;
+}
+
+
+
+
+
+.fourth-page{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 1264px;
+    background-color: #fff;
+    padding: 5vw;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.fourth-top{
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  margin-bottom: 10%;
+  flex-wrap: wrap;
+
+}
+ 
+.top-left{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.four-bt{
+    position: relative;
+    display: flex;
+    width: 160px;
+    height: 52px;
+    text-align: center;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    background-color: #354463;
+    color: #fff; /* Change the text color to white (#ffffff) or any other contrasting color */
+    align-items: center;
+    justify-content: center;
+}
+
+.four-head{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    
+    text-align: left;
+font: normal normal bold 48px Helvetica;
+letter-spacing: 0.16px;
+color: rgba(53, 68, 99, 1);
+opacity: 1;
+
+
+}
+
+.four-rig{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    
+    text-align: left;
+    font: normal normal 300 20px/30px Helvetica;
+    letter-spacing: -0.4px;
+    color: rgba(53, 68, 99, 1);
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.four-mid{
+    display: flex;
+    position: relative;
+    width: 100%;
+    
+    
+    flex-direction: column;
+}
+  
+.four-row1{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    justify-content: space-evenly;
+
+}
+.four-row2{
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 50%;
+  justify-content: space-evenly;
+
+}
+
+.four-card {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 30%; 
+    flex-direction: column;
+    overflow: hidden; /* To hide overflow from card-low */
+
+  }
+  
+  .card-img {
+    display: flex;
+    height: 90%;
+    width: 90%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    position: relative; /* Add this for stacking context */
+
+  }
+  
+  .card-low {
+    
+    right: -10%;
+    transform: translateY(-50%); /* Adjust the translateY to 50% */
+    display: flex;
+    position: relative;
+    height: 20%;
+    width: 90%;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(53, 68, 99, 1);
+    text-align: center;
+    color: white;
+    font: normal normal 300 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+  }
+  
+  
+.fifth-page{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 670px;
+    background-color: #354463;
+    background-image: url('assets/Impact Background.png');
+    padding: 5vw;
+    box-sizing: border-box;
+    
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.fif-top{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 191px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+    
+}
+.fif-top-box{
+    display: flex;
+    position: relative;
+    width: 160px;
+    height: 40px;
+    background-color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.fif-bot-box{
+    display: flex;
+    width: 80%;
+    height: 109px;
+    position: relative;
+    text-align: center;
+    font: normal normal bold 48px Helvetica;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+    padding: 0 10%;
+}
+
+.fif-mid{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 143px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.mid-card{
+    display: flex;
+    position: relative;
+    width: 256px;
+    height: 100%;
+    
+    flex-direction: column;
+    
+}
+
+.midcard-top{
+    display: flex;
+    position: relative;
+    height: 50%;
+    width: 100%;
+    
+    text-align: center;
+font: normal normal normal 72px/76px Flood Std;
+letter-spacing: 0px;
+color: rgba(255, 255, 255, 1);
+opacity: 1;
+    justify-content: center;
+}
+.card-bot{
+    display: flex;
+    position: relative;
+    height: 50%;
+    width: 100%;
+    
+    text-align: center;
+font: Helvetica;
+font-size: 28px;
+letter-spacing: 0px;
+color: rgba(255, 255, 255, 1);
+opacity: 1;
+justify-content: center;
+
+}
+
+
+.six-page{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 1264px;
+    background-color: #354463;
+    padding: 8%;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+
+}
+.six-top{
+    display: flex;
+    position: relative;
+    height: 160px;
+    
+    margin-left: 5%;
+    text-align: left;
+font: normal normal normal 72px/76px Flood Std;
+letter-spacing: 0px;
+color: rgba(255, 255, 255, 1);
+opacity: 1;
+margin-bottom: 50px;
+}
+
+.boxes{
+    position: relative;
+    display: flex;
+    height: 804px;
+    width: 100%;
+    
+    justify-content: space-evenly;
+}
+
+.single-box1{    
+    display: flex;
+    position: relative;
+    height: 804px;
+    width: 40%;
+    
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+
+}
+
+.single-box2{    
+  display: flex;
+  position: relative;
+  height: 804px;
+  width: 40%;
+  
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+
+}
+
+
+.text-box{
+    display: flex;
+    position: relative;
+    height: 47%;
+    width: 100%;
+    background-color: #fff;
+    padding: 8%;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.img-box{
+    display: flex;
+    position: relative;
+    height: 50%;
+    width: 100%;
+    
+
+}
+.ssmall-box{
+    display: flex;
+    position: relative;
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    transform: translate(-180%,50%);
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.head-text{
+    display: flex;
+    position: relative;
+    height: 30%;
+    width: 100%;
+    font-size: 24px;
+    text-align: left;
+font: normal normal bold Helvetica;
+letter-spacing: 0px;
+color: rgba(53, 68, 99, 1);
+opacity: 1;
+}
+
+.subs-text{
+    display: flex;
+    position: relative;
+    height: 40;
+    text-align: left;
+font: normal normal 300 20px/30px Helvetica;
+letter-spacing: -0.4px;
+color: rgba(53, 68, 99, 1);
+opacity: 1;
+}
+
+.button-box{
+    position:relative;
+    display: flex;
+    width: 20%;
+    height: 5%;
+  font: normal bold 18px/22px Helvetica;
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font: normal normal bold 18px/22px Helvetica;
+  padding: 11px 26px;
+  background: rgba(193, 247, 213, 1);
+  text-align: center;
+font: normal normal bold  Helvetica;
+letter-spacing: 0px;
+color: rgba(53, 68, 99, 1);
+opacity: 1;
+font-size: 10px;
+}
+
+
+.GREEN-NAV-last{
+    background-color: #c1f7d5;
+    opacity: 1;
+    display: flex; /* Use flex instead of grid */
+    
+    font: Helvetica;
+    top: 6150px;
+    width: 100%;
+    height: 240px;
+    box-sizing: border-box;
+    padding: 5vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+  }
+  
+  .green-lef {
+    width: 50%; /* Half of the parent container */
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;  
+    text-align: left;
+    font: normal normal bold 28px/36px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+  }
+  
+  .green-rig {
+    width: 50%; /* Half of the parent container */
+    height: 70px;
+    max-width: 100%; /* Set a maximum width to prevent overflow */
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .green-wit {
+    font: normal normal 18px/22px Helvetica;
+    letter-spacing: 1px;
+    width: 252px;
+    height: 48px;
+    border-radius: 34px;
+    border: none;
+    background: #ffffff;
+    color: #354463;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .green-blue-button {
+    width: 160px;
+    height: 48px;
+    font: normal normal 18px/22px Helvetica;
+    border-radius: 34px;
+    border: none;
+    background: red;
+    position: relative;
+    display: flex; /* Use flexbox to center text */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    text-align: center; /* This can be removed */
+    text-justify: inherit; /* This can be removed */
+  }
+  
+  
+  .input-container {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .green-lef {
+    width: 50%; /* Adjust as needed */
+    float: left;
+  }
+  
+  .green-rig {
+    height: 70px;
+    max-width: 100%;
+    /* display: grid; */
+    align-items: center;
+    padding: 0px 20px;
+  }
+  
+  
+ /* Default styles for .bottom and its children */
+
+.bottom {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; /* Center items vertically */
+  width: 100%;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  padding: 20px; /* Reduce padding for smaller screens */
+  flex-wrap: wrap;
+}
+
+.b-title {
+  font: normal normal bold 22px/28px Helvetica;
+  color: #354463;
+  width: 20vh;
+  height: 8vh;
+}
+
+.b-cards {
+  display: flex;
+  flex-direction: column;
+  width: 12vw;
+  height: 15vh;
+  margin: 10px; /* Add spacing between cards on all screens */
+}
+
+.card-top {
+  font: normal normal normal 2vh Helvetica;
+  border-bottom: 2px solid #354463;
+}
+
+.card-ds {
+  font: normal normal 300 1.5vh Helvetica;
+  letter-spacing: -0.14px;
+}
+
+.b-image {
+  display: flex;
+  position: relative;
+  width: 20%; 
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+}
+
+
+
+  
+
+  @media (max-width: 768px) {
+   
+    nav {
+      grid-template-columns: 1fr 1fr; /* Two columns, left and middle */
+      grid-template-rows: 1fr 1fr;
+      
+      height: 30vh;
+      
+    }
+    .middle{
+      
+      flex-direction: column;
+      
+    }
+  
+    .right {
+      display: flex; /* Display the "right" content in a new row */
+      justify-content: center;
+      grid-row: 2; /* Place it in the second row */
+      width: 200%; /* Full width */
+    }
+    .right > button{
+      width: 100%;
+    }
+
+    .second-page{
+      flex-direction: column;
+      padding: 5vh;
+      height: 90vh;
+      background-size:cover;
+      background-position: center;
+    }
+    
+    
+    .sec-rig{
+      height: 70%;
+      width: 90%;
+      
+    }
+    .blue-box{
+      width: 30%;
+      height: 40px;
+      font-size: 2vh;
+    }
+    .white-box{
+      display: flex;
+        width: 90vw;
+        height: 50vh;
+        font-size: 6vw;
+        align-items: center;
+        justify-content: center;
+  }
+  .third-page{
+    height: auto;
+    padding: 3vh;
+  }
+  .third-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third-heading{
+    justify-content: center;
+    font: normal normal bold 5vw Helvetica;
+  }
+  .third-middle{
+    flex-direction: row;
+  }
+  .mid-bold{
+    font: normal normal bold 4vw Helvetica;
+  }
+  .mid-sub{
+    font: normal normal 300 3vw Helvetica;
+  }
+  .row1{
+    flex-direction: column;
+    width: 50%;
+  }
+  .row2{
+    flex-direction: column;
+    width: 50%;
+  }
+  .row-cards{
+    margin: 5vw;
+    width:35vw;
+  }
+
+
+
+  .fourth-page {
+    height: auto; /* Remove fixed height to allow content to determine the height */
+  }
+
+  .four-head{
+    font: normal normal bold 6vw Helvetica;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+
+  .top-left{
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  .four-rig{
+    height: 50%;
+    width: 100%;
+  }
+  .four-bt{
+    margin: 3vh;
+  }
+  .four-mid{
+    flex-direction: row;
+  }
+  .four-row1{
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+  }
+  .four-row2{
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+  }
+  .four-card{
+    height: auto;
+    width: 100%;
+  }
+
+  .card-img{
+    max-width: 100%; /* Ensure the image fits within the card */
+    height: auto; 
+  }
+
+  .card-img img {
+    max-width: 100%; /* Ensure the image fits within the card */
+    height: auto; /* Maintain image aspect ratio */
+  }
+  .card-low {
+    right: 0; /* Reset the right position for mobile */
+    transform: translateY(0); /* Reset translateY for mobile */
+    width: 90%; /* Full width for mobile */
+    font-size: 14px; /* Adjust font size for mobile */
+  }
+  .fifth-page{
+    height: 100vh;
+    
+  }
+  .fif-bot-box{
+    font: normal normal bold 22px Helvetica;
+  }
+  .fif-mid{
+    flex-direction: row;
+    
+  }
+  .midcard-top{
+    font: normal normal normal 44px/46px Flood Std;
+  }
+  .card-bot{
+    font: normal normal bold 16px/20px Helvetica;
+  }
+  .six-top{
+    
+    text-align: center;
+    justify-content: center;
+    font: normal normal normal 44px/46px Flood Std;
+  }
+  .single-box2{
+    display: none; /* Hide the single-box on mobile screens */
+  }
+  .single-box1 {
+    width: 100%;
+    align-items: center;
+  }
+  .text-box{
+    align-items: center;
+  }
+
+  .head-text{
+    text-align: center;
+  font: normal normal bold 22px/28px Helvetica;
+  }
+  .subs-text{
+    text-align: center;
+    font-size: 16px;
+  }
+  .button-box{
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+  }
+  .GREEN-NAV-last {
+    height: 30vh;
+    justify-content: space-evenly;
+  }
+  .green-lef{
+    width: 100%;
+    font: normal normal bold 22px/28px Helvetica;
+  }
+  .green-rig{
+    height: 30%;
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    padding: 0;
+    
+  }
+  .input{
+    width: 50%;
+  }
+  .green-wit{
+    width: 50vw;
+  }
+  
+  .green-blue-button{
+    width: 30vw;
+    font: normal normal bold 12px Helvetica;
+    justify-self: end;
+  }
+  .bottom {
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 40px;
+
+  }
+
+  .b-title {
+    font-size: 18px;
+    width: 30vh; /* Reduce font size for smaller screens */
+  }
+
+  .b-cards {
+    
+    width: 40%; /* Take full column width on small screens */
+  }
+
+  .b-image {
+    width: 100%; /* Reduce image height on small screens */
+  }
+
+    
+
+
+}
+
+  
